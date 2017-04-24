@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:title="Screen Lock"
+        android:key="screenlock" />
+    <SwitchPreference
+        android:defaultValue="false"
+        android:title="Bluetooth"
+        android:key="btsett" />
+    <EditTextPreference
+        android:defaultValue="Guest"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="Password"
+        android:key="password" />
+    <RingtonePreference
+        android:defaultValue=""
+        android:title="Ringtone preference"
+        android:key="ringtone_preference_1" />
+</PreferenceScreen>
